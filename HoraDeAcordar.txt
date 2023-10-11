@@ -1,0 +1,21 @@
+Algoritmo Acordar
+Var
+   despertador: inteiro
+   sono: inteiro
+
+Início
+   despertador <- 6  // Define o horário do despertador para às 6 da manhã
+   sono <- 8  // Define o nível de sono como 8 (em uma escala de 0 a 10)
+
+   Se sono >= 7 Então
+      Escreva("Acorde devagar, você está com bastante sono!")
+      Enquanto sono > 0 Faça
+         sono <- sono - 1
+         Escreva("Zzz...")
+      FimEnquanto
+   Senão
+      Escreva("Você está bem descansado, é hora de acordar!")
+   FimSe
+
+   Escreva("Hora de levantar da cama e começar o seu dia!")
+FimAlgoritmo
