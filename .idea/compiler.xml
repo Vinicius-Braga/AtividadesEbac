@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Tarefa_classes" />
         <module name="Tarefa_CalculoMedia" />
+        <module name="Tarefa_Wrapper" />
       </profile>
     </annotationProcessing>
   </component>

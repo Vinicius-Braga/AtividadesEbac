@@ -3,11 +3,14 @@ package org.example;
 public class MediaNota {
     public static void main(String[] args) {
 
-        int nota1 = 10;
-        int nota2 = 8;
-        float nota3 = 7.4F;
-        int nota4 = 4;
-        float media = (nota1 + nota2 + nota3 + nota4) / 4;
-        System.out.println("Média: " + media);
+        int result = 22;
+
+        if (result >= 0 && result <= 9) {
+            System.out.println("Fala meu magazineluizo");
+        } else if (result >= 10 && result <= 19) {
+            System.out.println("Fala meu calabreso");
+        } else {
+            System.out.println("Fala meu Borboleto");
+        }
     }
 }
