@@ -5,7 +5,6 @@ import org.example.Main;
 import org.example.Pessoa;
 import org.junit.Assert;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
