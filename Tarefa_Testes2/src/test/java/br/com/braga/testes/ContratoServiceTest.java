@@ -1,10 +1,10 @@
 package br.com.braga.testes;
 
-import org.example.dao.ContratoDao;
-import org.example.dao.IContratoDao;
-import org.example.mock.ContratoDaoMock;
-import org.example.service.ContratoService;
-import org.example.service.IContratoService;
+import br.com.braga.dao.ContratoDao;
+import br.com.braga.dao.IContratoDao;
+import br.com.braga.mock.ContratoDaoMock;
+import br.com.braga.service.ContratoService;
+import br.com.braga.service.IContratoService;
 import org.junit.Assert;
 import org.junit.Test;
 

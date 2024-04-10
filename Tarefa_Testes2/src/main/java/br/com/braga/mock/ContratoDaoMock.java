@@ -1,6 +1,6 @@
-package org.example.mock;
+package br.com.braga.mock;
 
-import org.example.dao.IContratoDao;
+import br.com.braga.dao.IContratoDao;
 
 public class ContratoDaoMock implements IContratoDao {
     @Override

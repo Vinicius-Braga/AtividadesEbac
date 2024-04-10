@@ -1,6 +1,6 @@
-package org.example.service;
+package br.com.braga.service;
 
-import org.example.dao.IContratoDao;
+import br.com.braga.dao.IContratoDao;
 
 public class ContratoService implements IContratoService {
 

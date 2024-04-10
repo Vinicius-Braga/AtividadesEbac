@@ -1,4 +1,4 @@
-package org.example.service;
+package br.com.braga.service;
 
 public interface IContratoService {
     default String  salvar() {

@@ -1,9 +1,7 @@
 package br.com.braga.testes;
 
 
-import org.example.Main;
-import org.example.Pessoa;
-import org.junit.Assert;
+import br.com.braga.Pessoa;
 import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;

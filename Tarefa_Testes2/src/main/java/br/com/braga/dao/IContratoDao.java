@@ -1,4 +1,4 @@
-package org.example.dao;
+package br.com.braga.dao;
 
 public interface IContratoDao {
     void salvar();
