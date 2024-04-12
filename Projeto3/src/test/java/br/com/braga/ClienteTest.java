@@ -27,5 +27,12 @@ public class ClienteTest {
         assertNotNull(clienteBD.getId());
         assertEquals(cliente.getCodigo(), clienteBD.getCodigo());
         assertEquals(cliente.getNome(), clienteBD.getNome());
+
+        cliente.setNome("Patricia");
+        Integer qtdUpdate = dao.atualizar(cliente);
+        assertNotNull(qtdUpdate == 1);
+
+        Integer qtdDelete = dao.excluir(cliente);
+        assertNotNull(qtdDelete == 1);
     }
 }
