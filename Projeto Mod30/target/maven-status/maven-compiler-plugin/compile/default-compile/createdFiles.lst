@@ -1,0 +1,6 @@
+anotacao\Tabela.class
+br\com\braga\domain\Persistente.class
+br\com\braga\services\generic\IGenericService.class
+br\com\braga\exceptions\TipoChaveNaoEncontradaException.class
+br\com\braga\services\IProdutoService.class
+br\com\braga\domain\Produto.class
