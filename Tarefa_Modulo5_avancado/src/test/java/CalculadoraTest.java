@@ -1,12 +1,12 @@
-import org.junit.Test;
-
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
-
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculadoraTest {
 
+    /**
+     * Testa o método adicionar da classe Calculadora.
+     * Verifica se a soma de dois números inteiros é calculada corretamente.
+     */
     @Test
     public void testAdicionar() {
         Calculadora calc = new Calculadora();
@@ -15,6 +15,10 @@ public class CalculadoraTest {
         assertEquals(0, calc.adicionar(0, 0));
     }
 
+    /**
+     * Testa o método subtrair da classe Calculadora.
+     * Verifica se a diferença entre dois números inteiros é calculada corretamente.
+     */
     @Test
     public void testSubtrair() {
         Calculadora calc = new Calculadora();
@@ -23,6 +27,10 @@ public class CalculadoraTest {
         assertEquals(0, calc.subtrair(0, 0));
     }
 
+    /**
+     * Testa o método multiplicar da classe Calculadora.
+     * Verifica se o produto de dois números inteiros é calculado corretamente.
+     */
     @Test
     public void testMultiplicar() {
         Calculadora calc = new Calculadora();
@@ -31,6 +39,11 @@ public class CalculadoraTest {
         assertEquals(0, calc.multiplicar(0, 3));
     }
 
+    /**
+     * Testa o método dividir da classe Calculadora.
+     * Verifica se o quociente de dois números inteiros é calculado corretamente.
+     * Também verifica se uma exceção é lançada ao tentar dividir por zero.
+     */
     @Test
     public void testDividir() {
         Calculadora calc = new Calculadora();
